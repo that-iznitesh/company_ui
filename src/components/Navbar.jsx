@@ -5,9 +5,7 @@ import { Link } from 'react-router-dom';
 function Navbar() {
   return (
     <nav className="bg-blue-600 px-8 py-3 flex items-center justify-between shadow">
-      {/* Logo and Brand */}
       <div className="flex items-center gap-2">
-        {/* Logo icon: Replace below svg with your logo or image */}
         <span className="bg-white p-1 rounded-md">
           <svg width="32" height="32" fill="none" viewBox="0 0 24 24">
             <rect x="2" y="6" width="20" height="12" rx="2" fill="#2563EB"/>
@@ -17,7 +15,7 @@ function Navbar() {
         <span className="text-white font-bold text-2xl">IELTS Institute</span>
       </div>
 
-      {/* Navigation Links */}
+   
       <ul className="flex items-center gap-10 text-white font-semibold">
          <li>
           <Link to="/" className="hover:text-blue-200 transition">Home</Link>
@@ -33,7 +31,7 @@ function Navbar() {
         </li>
       </ul>
 
-      {/* Right Side: Contact Button + Icons */}
+    
       <div className="flex items-center gap-4">
         <Link
           to="/contactus"
@@ -50,13 +48,7 @@ function Navbar() {
         className="ml-2 outline-none flex-grow"
       />
         <FiMenu size={24} />
-          {/* Menu icon
-          <span>
-            <svg className="w-6 h-6 text-white opacity-80" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-              <line x1="4" y1="8" x2="20" y2="8" />
-              <line x1="4" y1="16" x2="20" y2="16" />
-            </svg>
-          </span> */}
+         
         </div>
       </div>
     </nav>
