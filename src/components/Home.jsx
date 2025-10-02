@@ -12,7 +12,7 @@ function Home() {
    <div>  
       <div className="relative ">
         <img
-         src="../public/bgimage.png"
+         src="/bgimage.png"
          alt="Background"  className='h-71 w-full'
         />    
          <div className="absolute inset-0 flex flex-col justify-center items-center text-center bg-black/40">
@@ -60,7 +60,7 @@ function Home() {
       <div className="flex rounded-2xl ml-28 mr-28 text-white">
         <div className=" ">
           <img
-            src="../public/3.png"
+            src="/3.png"
             alt="Student"
             className="rounded-l-lg max-w-xs"
           />
@@ -75,17 +75,17 @@ function Home() {
 
           <div className="flex -space-x-4 mb-4">
             <img
-              src="../public/avatar1.webp"
+              src="/avatar1.webp"
               alt="Avatar 1"
               className="w-12 h-12 rounded-full border-4 border-white"
             />
             <img
-              src="../public/avatar2.webp"
+              src="/avatar2.webp"
               alt="Avatar 2"
               className="w-12 h-12 rounded-full border-4 border-white"
             />
             <img
-              src="../public/avatar3.webp"
+              src="/avatar3.webp"
               alt="Avatar 3"
               className="w-12 h-12 rounded-full border-4 border-white"
             />
